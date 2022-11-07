@@ -28,7 +28,7 @@ Console.Write(result);
 
 void IntersectionPoint(double b1, double b2, double k1, double k2)
 {
-    if (k1 == k2) Console.WriteLine("Прямые паралельны.");
+    if (k1 == k2) Console.WriteLine("Прямые параллельны.");
     else
     {
         double x = (b2 - b1) / (k1 - k2);
